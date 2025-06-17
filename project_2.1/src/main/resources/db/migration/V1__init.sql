@@ -15,6 +15,7 @@ CREATE TABLE `products` (
   PRIMARY KEY (`idproducts`)
 )
 
+
 CREATE TABLE `orders` (
   `idorders` int NOT NULL AUTO_INCREMENT,
   `customer_id` int NOT NULL,
