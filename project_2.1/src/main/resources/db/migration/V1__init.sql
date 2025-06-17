@@ -7,7 +7,6 @@ CREATE TABLE customers (
   PRIMARY KEY (id_customers)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-
 CREATE TABLE products (
   id_product int NOT NULL AUTO_INCREMENT,
   name varchar(45) NOT NULL,
